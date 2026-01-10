@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
-    "module": "CommonJS",
-    "rootDir": "src",
-    "outDir": "dist",
-    "strict": true,
-    "esModuleInterop": true
-  }
+    "target": "ES2020", // modern JS target
+    "module": "CommonJS", // Node.js module system
+    "rootDir": "src", // source folder
+    "outDir": "dist", // compiled output folder
+    "strict": true, // enable all strict type checks
+    "esModuleInterop": true, // allows default import from commonjs modules (like express, multer)
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true, // skip type checking for node_modules
+    "resolveJsonModule": true // allow importing json files
+  },
+  "include": ["src/**/*"]
 }

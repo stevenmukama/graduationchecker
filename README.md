@@ -15,6 +15,8 @@ npm run dev
 ```
 
 ## Environment Variables
+```bash
 MONGO_URI=
 JWT_SECRET=
 PORT=5000
+```

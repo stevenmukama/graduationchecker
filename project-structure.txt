@@ -1,0 +1,36 @@
+
+├── package-lock.json
+├── package.json
+├── project-structure.txt
+├── README.md
+├── src
+│   ├── app.ts
+│   ├── config
+│   │   └── databaseConnection.ts
+│   ├── constants
+│   │   └── graduationRequiredDocuments.ts
+│   ├── controllers
+│   │   ├── adminDocumentVerification.controller.ts
+│   │   ├── authentication.controller.ts
+│   │   └── studentDocumentSubmission.controller.ts
+│   ├── middlewares
+│   │   ├── authenticateRequest.middleware.ts
+│   │   └── authorizeAdmin.middleware.ts
+│   ├── models
+│   │   ├── graduationDocument.model.ts
+│   │   └── user.model.ts
+│   ├── routes
+│   │   ├── admin.routes.ts
+│   │   ├── authentication.routes.ts
+│   │   └── student.routes.ts
+│   ├── server.ts
+│   ├── services
+│   │   ├── graduationProgress.service.ts
+│   │   ├── jwtToken.service.ts
+│   │   └── studentDocument.service.ts
+│   └── utils
+│       └── fileUpload.util.ts
+├── tsconfig.json
+└── uploads
+
+324 directories, 936 files
